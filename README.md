@@ -9,8 +9,14 @@ Visualize decision boundaries for both annotated and randomly generated datasets
 annotated_points_np_200.csv: A CSV file containing annotated data points used for training and testing the Perceptron.
 # Usage
 # Annoted Points
-Run gui_inputs.py
-Annoted Points for two linearly separable classes.This generates a .csv files with the annoted points.
+Run the gui_inputs.py Script:
+
+This script allows you to manually annotate points for two linearly separable classes using a graphical user interface.
+You can input points by pressing keys corresponding to different classes and clicking on the plot. Press escape to finish the annotation process.
+Save the Annotated Points:
+
+After annotation, the points will be saved as a CSV file named annotated_points_np_<number_of_points>.csv.
+This file will contain the coordinates and labels of the annotated points.
 # Load the Data
 The data is loaded from the CSV file into a NumPy array, and labels are adjusted where necessary.
 
