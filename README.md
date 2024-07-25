@@ -1,6 +1,6 @@
 Perceptron Binary Classification
 Overview
-This project implements a Perceptron algorithm for binary classification tasks. The Perceptron is a type of linear classifier that is used for binary classification problems. This project demonstrates its application on both annotated data and randomly generated data.
+This project implements a Perceptron algorithm for binary classification tasks. The Perceptron is a type of linear classifier used for binary classification problems. This project demonstrates its application on both annotated data and randomly generated data.
 
 Objectives
 Implement the Perceptron algorithm to classify data into two categories.
@@ -8,14 +8,13 @@ Visualize decision boundaries for both annotated and randomly generated datasets
 Files
 annotated_points_np_200.csv: A CSV file containing annotated data points used for training and testing the Perceptron.
 Usage
-Load the Data:
+Load the Data
 The data is loaded from the CSV file into a NumPy array, and labels are adjusted where necessary.
 
-Perceptron Implementation:
+Perceptron Implementation
 The perceptron function is defined to perform the training of the Perceptron algorithm. It updates weights iteratively based on the training data.
 
-Visualization:
-
+Visualization
 Decision boundaries are visualized for the annotated dataset.
 Randomly generated data is also used to demonstrate the Perceptron's ability to classify and visualize decision boundaries.
 Results
